@@ -27,8 +27,9 @@ The 44 .csv files downloaded on 2015-11-12 from <http://mmdb.iab.keio.ac.jp/down
 ## Scripts
 
 The shell script `scripts/run.sh` automatically carries out the entire steps: creating directories (`data/` and `analysis/`), downloading data files,
-running the shell script for inspecting data `scripts/run_InspectingData.sh` (generating the output file `analysis/output_InspectingData.txt`), and
-running the R script `scripts/my_analysis.R` that generates two output files (`analysis/plot.pdf` and `analysis/table.csv`).
+running the shell script for inspecting data `scripts/run_InspectingData.sh`, and
+running the R script `scripts/my_analysis.R` that generates the output files `analysis/plot.pdf` and `analysis/table.csv`.
+The R script `scripts/my_analysis_reshape2.R` generates the output files `analysis/plot_reshape2.pdf` and `analysis/table_reshape2.csv`. 
 
 ## Usage
 
