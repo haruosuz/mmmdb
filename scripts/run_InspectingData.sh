@@ -4,9 +4,10 @@ set -u
 set -o pipefail
 
     cd data/
-    echo "# Inspecting and Manipulating Text Data with Unix Tools"
 
-    echo "# Inspecting Data with Head and Tail"
+    echo; echo "# Inspecting and Manipulating Text Data with Unix Tools"
+
+    echo; echo "# Inspecting Data with Head and Tail"
     head -n 2 cerebella_mouse_1_known.csv
     tail -n 2 cerebella_mouse_1_known.csv
 
