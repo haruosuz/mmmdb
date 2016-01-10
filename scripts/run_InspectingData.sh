@@ -40,6 +40,7 @@ set -o pipefail
     echo "# Sorting Plain-Text Data with Sort"
     echo "# Finding Unique Values in Uniq"
     grep 'Conc' *.csv | cut -d',' -f3 | sort | uniq
+    echo; 
     echo "# Adding the option -c to uniq to show the counts of occurrences next to the unique lines"
     grep 'Conc' *.csv | cut -d',' -f3 | sort | uniq -c
 
