@@ -5,6 +5,10 @@ set -o pipefail
 
     cd data/
 
+    echo; 
+    echo "Vince Buffalo (2015). Unix Data Tools. In Bioinformatics Data Skills (pp. 125-174). O’Reilly"
+    echo "URL http://shop.oreilly.com/product/0636920030157.do"
+
     echo; echo "# Inspecting and Manipulating Text Data with Unix Tools"
 
     echo; echo "# Inspecting Data with Head and Tail"
