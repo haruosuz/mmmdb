@@ -6,10 +6,11 @@ set -o pipefail
     cd data/
 
     echo; 
-    echo "Vince Buffalo (2015). Unix Data Tools. In Bioinformatics Data Skills (pp. 125-174). O’Reilly"
-    echo "URL http://shop.oreilly.com/product/0636920030157.do"
+    echo "  Unix Data Tools. In Bioinformatics Data Skills (pp. 125-174)."
+    echo "  URL http://shop.oreilly.com/product/0636920030157.do"
+    echo; 
 
-    echo; echo "# Inspecting and Manipulating Text Data with Unix Tools"
+    echo "# Inspecting and Manipulating Text Data with Unix Tools"
 
     echo; echo "# Inspecting Data with Head and Tail"
     head -n 2 cerebella_mouse_1_known.csv
@@ -39,12 +40,11 @@ set -o pipefail
 
     echo; 
     echo "# Using grep, cut, sort, uniq to summarize columns of data"
-    echo "# use grep to extract lines of a file that match a pattern"
-    echo "# Extracting the column(s) with cut"
+    echo "# Extracting lines that match a pattern using Grep"
+    echo "# Extracting the column(s) with Cut"
     echo "# Sorting Plain-Text Data with Sort"
     echo "# Finding Unique Values in Uniq"
     grep 'Conc' *.csv | cut -d',' -f3 | sort | uniq
-    echo; 
     echo "# Adding the option -c to uniq to show the counts of occurrences next to the unique lines"
     grep 'Conc' *.csv | cut -d',' -f3 | sort | uniq -c
 
