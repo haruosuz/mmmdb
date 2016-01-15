@@ -8,7 +8,7 @@ Last Update: 2016-01-15
 # Mouse Multiple tissue Metabolome DataBase (MMMDB) Project
 Project started 2015-11-12.  
 
-Duplicated datasets from mouse (1) and mouse (2) were retrieved from the Mouse Multiple tissue Metabolome DataBase (MMMDB). I used R to draw histograms and scatter plots for the values of m/z (mass-to-charge ratio) and concentrations for metabolites.
+Duplicated datasets from mouse (1) and mouse (2) were retrieved from the Mouse Multiple tissue Metabolome DataBase (MMMDB). [R](https://www.r-project.org) was used to draw histograms and scatter plots for the values of m/z (mass-to-charge ratio) and concentrations for metabolites.
 
 ## Project directories
 
