@@ -18,4 +18,4 @@ mv Rplots.pdf analysis/
 # Print operating system characteristics
 uname -a
 
-echo "[$(date)] Thank you, come again."
+echo "[$(date)] $0 has been successfully completed."
