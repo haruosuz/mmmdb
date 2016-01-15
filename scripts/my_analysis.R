@@ -24,7 +24,7 @@ plot(d$m.z, d$conc)
 barplot(sort(d$m.z), ylab = "m.z")
 
 # Exporting Data
-write.csv(d[order(d$m.z),], file="analysis/table.csv")
+write.csv(d[order(d$m.z),], file="analysis/tableR.csv")
 
 # Print R version and packages
 sessionInfo()

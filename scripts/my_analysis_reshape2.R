@@ -26,7 +26,7 @@ rownames(d) <- d[,1]; d <- d[,-1]
 d <- na.omit(t(d))
 
 # Exporting Data
-write.csv(d, file="analysis/table_reshape2.csv")
+write.csv(d, file="analysis/tableRreshape2.csv")
 
 cat("# Exploring Dataframes\n")
 dim(d)
