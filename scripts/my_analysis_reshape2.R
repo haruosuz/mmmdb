@@ -1,4 +1,4 @@
-# This R script uses the `reshape2` package to reshape data: the function `cast()` turns long data into wide data.
+cat("\n  This R script uses the `reshape2` package to reshape data: the function `cast()` turns long data into wide data.\n\n")
 
 # Set Working Directory
 #setwd("~/projects/mmmdb/")
@@ -35,7 +35,7 @@ head(d, n=2)
 tail(d, n=2)
 
 # Exploring Data Visually
-pdf(file="analysis/plot_reshape2.pdf")
+pdf(file="analysis/Rplots_reshape2.pdf")
 par(mfrow=c(1,1))
 heatmap(d)
 plot(as.data.frame(d[,c(9:10,13:14)]))
