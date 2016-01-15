@@ -17,13 +17,11 @@ cat("# Data Summary\n")
 summary(d)
 
 # Exploring Data Visually
-pdf(file="analysis/plot.pdf")
 par(mfrow=c(2,2))
 hist(d$m.z)
 hist(d$conc)
 plot(d$m.z, d$conc)
 barplot(sort(d$m.z), ylab = "m.z")
-dev.off()
 
 # Exporting Data
 write.csv(d[order(d$m.z),], file="analysis/table.csv")
